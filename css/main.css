@@ -1,0 +1,394 @@
+:root {
+	--font-family: "Golos Text", sans-serif;
+	--second-family: "Merriweather", sans-serif;
+	--third-family: "Montserrat", sans-serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.container{
+	max-width: 1222px;
+	margin: 0 auto;
+}
+
+.header{
+	background-image: url('/img/bgHead.png'), url('/img/bgHeadSec.png');
+	background-size: auto auto, auto 99%;
+	background-position: center 0, 0 0;
+	background-repeat: no-repeat, repeat-x;
+	padding-top: 26px;
+}
+
+.logoHorseMain{
+	display: flex;
+	flex-direction: row;
+}
+
+.logoHorseText{
+	font: 700 16px / 108% var(--font-family);
+	color: #595653;
+	margin-left: 6.35px;
+}
+
+.headText{
+	font: 400 60px / 110% var(--second-family);
+	text-transform: uppercase;
+	color: #313131;
+	margin-top: 62px;
+}
+.headText p{
+	margin: 0;
+}
+.headTextMiddle{
+	margin-left: 91px;
+}
+.headTextBottom{
+	margin-left: 36px;
+}
+
+.headTextSecond{
+	max-width: 542px;
+	margin: 24px 0 40px 0;
+}
+
+.headTextSecond p{
+	font: 400 18px / 130% var(--font-family);
+	text-align: center;
+	color: #313131;
+}
+
+.headBtns{
+	display: flex;
+}
+
+.headBtn1{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+    align-items: center;
+	text-decoration: none;
+	font: 500 16px / 130% var(--font-family);
+	color: #fff;
+	border-radius: 66px;
+	width: 263px;
+	height: 72px;
+	background: #1f1f1f;
+	border: none;
+	margin-right: 16px;
+}
+.headBtn1:hover{
+	background: #fbce51;
+	color: #1f1f1f;
+}
+
+.headBtn2{
+	display: flex;
+	text-decoration: none;
+	font: 500 16px / 130% var(--font-family);
+	text-align: center;
+	justify-content: center;
+    align-items: center;
+	color: #1f1f1f;
+	border: 2px solid #1f1f1f;
+	border-radius: 66px;
+	width: 263px;
+	height: 72px;
+	background: #0000;
+	margin-bottom: 129px;
+	padding: 0;
+}
+.headBtn2:hover{
+	background: #1f1f1f;
+	color: #fff;
+}
+
+marquee{
+	height: 42px;
+	overflow: hidden;
+	font: 400 22px / 110% var(--second-family);
+	text-transform: uppercase;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	background: #f54932;
+	min-width: 100%;
+	padding-top: 18px;
+}
+
+.lections{
+	margin-top: 80px;
+	display: flex;
+}
+
+.lectionsText{
+	font: 400 36px / 135% var(--second-family);
+	text-transform: uppercase;
+	color: #313131;
+	margin: 26.92px 64px 0 0;
+}
+.lectionsText span{
+	font: 700 36px / 135% var(--second-family);
+	color: #f54932;
+}
+
+.gameSession{
+	display: flex;
+	margin-top: 64px;
+}
+.gameSession img{
+	margin: 0 44px 0 -27px;
+}
+
+.gameSessionTextMain{
+	font: 400 36px / 135% var(--second-family);
+	text-transform: uppercase;
+	color: #313131;
+	margin-bottom: 60px;
+}
+.gameSessionTextMain span{
+	font: 700 36px / 135% var(--second-family);
+	color: #f54932;
+}
+
+.gameSessionTable{
+	border-collapse: collapse;
+	margin-bottom: 48px;
+}
+.gameSessionTable td{
+	border-bottom: 2px solid #d0d0d0;
+}
+.gameSessionTableMain{
+	font: 400 20px / 120% var(--font-family);
+	color: #313131;
+	opacity: 0.7;
+	min-width: 290px;
+	padding: 16px 16px 16px 0;
+	border-right: 2px solid #d0d0d0;
+}
+.gameSessionTableSecond{
+	font: 600 20px / 120% var(--font-family);
+	color: #313131;
+	padding-left: 16px;
+	min-width: 350px;
+	max-width: 382px;
+}
+.gameSessionTableSecond span{
+	text-decoration: line-through;
+	text-decoration-color: #f54932;
+	-moz-text-decoration-color: #f54932;
+}
+.gameSessionTableMainTop{
+	padding-top: 0;
+}
+.gameSessionTableMainBottom td{
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+.gameSessionLink{
+	font: 400 20px / 120% var(--font-family);
+	color: #3057a2;
+	text-decoration: none;
+}
+
+.stages{
+	margin-top: 200px;
+	position: relative;
+	overflow: hidden;
+}
+
+.stagesTexts{
+	position: relative;
+	margin-bottom: 54px;
+}
+
+.stagesText{
+	font: 400 54px / 120% var(--second-family);
+	text-transform: uppercase;
+	color: #313131;
+}
+
+.stagesLink{
+	font: 400 20px / 120% var(--font-family);
+	color: #3057a2;
+	text-decoration: none;
+	position: absolute;
+	top: 72px;
+	left: 300px;
+}
+
+.stagesBlocks{
+	display: flex;
+}
+
+.stagesBlocks1{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.stagesBlock{
+	position: relative;
+	padding: 20px 20px 20px 72px;
+	background-image: url('/img/stagesBlock.png');
+	display: flex;
+	width: 394px;
+	height: 112px;
+	margin-right: 20px;
+}
+
+.stagesNum{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 10px;
+	border-radius: 60px;
+	width: 36px;
+	height: 36px;
+	background: #fff;
+	top: 20px;
+	left: 20px;
+	font: 600 20px / 120% var(--font-family);
+	color: #313131;
+}
+
+.stagesBlockText{
+	font: 500 20px / 120% var(--font-family);
+	color: #313131;
+}
+
+.stagesBigBlock{
+	width: 394px;
+	height: 244px;
+}
+
+.stagesBlock6{
+	height: 136px;
+}
+.stagesBlockLong{
+	width: 808px;
+	height: 136px;
+	padding-right: 290px;
+}
+
+.stagesAir{
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: -62.36px;
+}
+
+.members{
+	margin-top: 200px;
+	position: relative;
+}
+
+.membersTitle{
+	font: 400 54px / 120% var(--second-family);
+	text-transform: uppercase;
+	color: #313131;
+	margin-bottom: 60px;
+}
+
+.sliderButtons{
+	display: flex;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+.sliderButtons button{
+	padding: 0;
+	background: #fff;
+	border: 0;
+}
+.next-button{
+	margin-left: 14px;
+}
+.prev-button{
+	margin-right: 14px;
+}
+.sliderButtonsText{
+	line-height: 47px;
+}
+.sliderButtonsText span{
+	opacity: 0.6;
+}
+.sliderButtons svg:hover > circle{
+	fill: #FBCE51;
+}
+
+.dontActive{
+	fill: #D6D6D6;
+}
+
+.membersSliderBigBlock{
+	display: flex;
+	overflow: hidden;
+	margin-bottom: 140px;
+}
+.membersSlider{
+	display: flex;
+}
+.sliderBlock{
+	padding: 0 37px;
+	margin-right: 20px;
+}
+.sliderImg{
+	margin-bottom: 28px;
+}
+.sliderTitle{
+	font: 600 24px / 120% var(--font-family);
+	color: #313131;
+	margin-bottom: 6px;
+	text-align: center;
+}
+.sliderText{
+	font: 400 20px / 120% var(--font-family);
+	color: #313131;
+	opacity: 0.6;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.sliderLink{
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 10px;
+	border: 1px solid #3057a2;
+	border-radius: 62px;
+	padding: 12px;
+	width: 113px;
+	height: 35px;
+	font: 500 16px / 120% var(--font-family);
+	color: #3057a2;
+	text-decoration: none;
+}
+.sliderLink:hover{
+	background: #3057a2;
+	color: #fff;
+}
+.slideNone{
+	display: none;
+}
+
+.footerText{
+	font: 400 16px / 120% var(--font-family);
+	color: #313131;
+	opacity: 0.6;
+	margin: 40px auto 72px auto;
+}
